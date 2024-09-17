@@ -1,4 +1,4 @@
-# get-next-line
+# Get next line
 
 Project 42 school
 
