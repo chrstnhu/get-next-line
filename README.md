@@ -15,16 +15,16 @@ char *get_next_line(int fd);
 * free
 
 ## Run
-> Git clone and go to project directory :
+Git clone and go to project directory :
 
 ```bash
 git clone git@github.com:chrstnhu/get_next_line.git && cd get_next_line
 ```
-> Compile
+Compile:
 ```bash
 cc -D BUFFER_SIZE=42 main.c get_next_line.c get_next_line_utils.c 
 ```
-> Run
+Run:
 ```bash
 ./a.out
 ```
